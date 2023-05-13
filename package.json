@@ -6,9 +6,7 @@
   "description": "Retro unplugin auto import",
   "author": "Daniel Zhang",
   "license": "MIT",
-  "homepage": "https://github.com/danielzhang183/dz-unplugin-auto-import#readme",
   "repository": "danielzhang183/dz-unplugin-auto-import",
-  "bugs": "https://github.com/danielzhang183/dz-unplugin-auto-import/issues",
   "keywords": [],
   "sideEffects": false,
   "exports": {
@@ -43,8 +41,13 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@rollup/pluginutils": "^5.0.2",
+    "local-pkg": "^0.4.3"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^0.27.0",
+    "@antfu/utils": "^0.7.2",
     "@types/node": "^18.16.6",
     "bumpp": "^8.2.1",
     "eslint": "^8.40.0",
